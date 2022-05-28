@@ -1,0 +1,17 @@
+.mainContainer{
+    background-color: #C2DED1;
+    width: 100vw;
+    min-height: 100vh;
+    >h1{
+        text-align: center;
+        margin-bottom: 50px;
+        color: #293462;
+    }
+    .infoContainer{
+        max-width: 1000px;
+        margin: auto;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+}

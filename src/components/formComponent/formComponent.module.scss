@@ -1,0 +1,33 @@
+.mainContainer{
+    background-color: #354259;
+    height: fit-content;
+    padding: 20px 30px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     form{
+        display: flex;
+        flex-direction: column;
+        color: #fff;      
+     }
+     select{
+         margin-top: 30px;
+         background: transparent;
+         border: none;
+         border-bottom: solid;
+         border-color: #fff;
+         color: #fff;
+     }
+     .radiosContainer{
+        margin: 30px 0;
+    }
+    button{
+        background-color: #242F9B;
+        color: #fff;
+        border: none;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    span{
+        display: block;
+        text-align: center;
+    }
+}
